@@ -22,14 +22,20 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
- <section class="relative bg-cover bg-center bg-no-repeat text-white py-20 px-4 text-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('fondo.jpg');">
-       <div class="max-w-3xl mx-auto space-y-4">
+  <!-- Hero Section con Imagen de Fondo Garantizada -->
+  <section class="relative bg-amber-950 text-white py-20 px-4 text-center overflow-hidden">
+    <!-- Imagen de fondo -->
+    <div class="absolute inset-0 z-0">
+      <img src="fondo.jpg" alt="Fondo SiberSam" class="w-full h-full object-cover opacity-35">
+    </div>
+    
+    <!-- Contenido encima de la foto -->
+    <div class="relative z-10 max-w-3xl mx-auto space-y-4">
       <span class="bg-amber-500/30 text-amber-200 border border-amber-400/30 text-xs px-3 py-1 rounded-full uppercase tracking-wider">Sabor Tradicional</span>
       <h2 class="text-3xl md:text-5xl font-extrabold">Las Mejores Tostadas y Caldos</h2>
       <p class="text-amber-100 text-sm md:text-base">Disfruta de nuestros tacos de guiso en harina, caldo tlalpeño y una sazón casera inigualable en San Nicolás de los Garza.</p>
       <div class="pt-4 flex justify-center gap-4">
-        <a href="https://wa.me/528132829565" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-sm shadow-lg flex items-center gap-2">
+        <a href="https://wa.me/528132829565" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-sm shadow-lg flex items-center gap-2">
           <i class="fa-brands fa-whatsapp"></i> Ordenar para Llevar
         </a>
         <a href="#ubicacion" class="border border-amber-300 hover:bg-amber-800 text-white px-6 py-3 rounded-lg font-semibold text-sm">Ver Ubicación</a>
@@ -63,7 +69,7 @@
     </div>
   </section>
 
-  <!-- Testimonios de Clientes (Extraídos de sus reseñas de Maps) -->
+  <!-- Testimonios de Clientes -->
   <section class="bg-amber-50 py-12 px-4">
     <div class="max-w-4xl mx-auto text-center space-y-6">
       <h3 class="text-xl font-bold text-gray-900">Lo que dicen nuestros clientes</h3>
