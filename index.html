@@ -69,7 +69,7 @@
     </div>
   </section>
 
-  <!-- NUEVA SECCIÓN: Menú Completo de Productos -->
+  <!-- Menú Completo de Productos (Con la foto del mole agregada) -->
   <section class="py-12 bg-gray-100/60 border-y border-gray-200">
     <div class="max-w-6xl mx-auto px-4">
       <h3 class="text-2xl font-bold text-center mb-2 text-gray-900">Nuestro Menú</h3>
@@ -78,61 +78,43 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         
         <!-- Categoría: Tostadas y Tacos -->
-        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-          <div class="flex items-center gap-3 mb-4 pb-2 border-b border-amber-100">
-            <i class="fa-solid fa-utensils text-amber-600 text-lg"></i>
-            <h4 class="font-bold text-gray-800 text-xl">Tostadas y Tacos</h4>
+        <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-3 mb-4 pb-2 border-b border-amber-100">
+              <i class="fa-solid fa-utensils text-amber-600 text-lg"></i>
+              <h4 class="font-bold text-gray-800 text-xl">Tostadas y Tacos</h4>
+            </div>
+            <ul class="divide-y divide-gray-100 text-sm">
+              <li class="py-2.5 font-medium text-gray-700">Tostada Especial</li>
+              <li class="py-2.5 font-medium text-gray-700">Tostada Sencilla</li>
+              <li class="py-2.5 font-medium text-gray-700">Taco Especial</li>
+              <li class="py-2.5 font-medium text-gray-700">Taco Sencillo</li>
+              <li class="py-2.5 font-medium text-gray-700">Tostada Junior</li>
+            </ul>
           </div>
-          <ul class="divide-y divide-gray-100 text-sm">
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Tostada Especial</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Tostada Sencilla</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Taco Especial</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Taco Sencillo</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Tostada Junior</span>
-            </li>
-          </ul>
         </div>
 
-        <!-- Categoría: Especialidades -->
+        <!-- Categoría: Especialidades (Incluye la foto mole.jpeg) -->
         <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
           <div class="flex items-center gap-3 mb-4 pb-2 border-b border-amber-100">
             <i class="fa-solid fa-star text-amber-600 text-lg"></i>
             <h4 class="font-bold text-gray-800 text-xl">Especialidades</h4>
           </div>
+          
+          <!-- Foto del Mole -->
+          <div class="mb-4">
+            <img src="mole.jpeg" alt="Mole Especial SiberSam" class="w-full h-44 object-cover rounded-lg shadow-sm border border-gray-100">
+          </div>
+
           <ul class="divide-y divide-gray-100 text-sm">
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Mole Especial</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Pierna Frita</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Ensalada de Pollo</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>½ Ensalada de Pollo</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Enmoladas</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Flautas</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Asado de Puerco</span>
-            </li>
-            <li class="py-2.5 flex items-center justify-between text-gray-700 font-medium">
-              <span>Milanesa Empanizada</span>
-            </li>
+            <li class="py-2.5 font-medium text-gray-700">Mole Especial</li>
+            <li class="py-2.5 font-medium text-gray-700">Pierna Frita</li>
+            <li class="py-2.5 font-medium text-gray-700">Ensalada de Pollo</li>
+            <li class="py-2.5 font-medium text-gray-700">½ Ensalada de Pollo</li>
+            <li class="py-2.5 font-medium text-gray-700">Enmoladas</li>
+            <li class="py-2.5 font-medium text-gray-700">Flautas</li>
+            <li class="py-2.5 font-medium text-gray-700">Asado de Puerco</li>
+            <li class="py-2.5 font-medium text-gray-700">Milanesa Empanizada</li>
           </ul>
         </div>
 
